@@ -22,7 +22,7 @@ class FirstScreen extends StatelessWidget{
   String generateLuckyNumber() {
     var random = Random();
     int luckyNumber = random.nextInt(10);
-    return "Your lucky number is \n $luckyNumber";
+    return "My lucky number is \n $luckyNumber";
   }
 
 }
